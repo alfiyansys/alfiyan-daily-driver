@@ -1,5 +1,6 @@
 # Use https://www.sitepoint.com/zsh-tips-tricks/
 # Install zsh-autosuggestions
+# git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 # Theme: kafeitu
 # Plugins: git zsh-autosuggestions
 
