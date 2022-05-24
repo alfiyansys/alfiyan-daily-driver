@@ -107,7 +107,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias sau="sudo apt update && sudo apt upgrade -y"
+if [ -L ~/.zshrc ]
+then
+    zshrc_loc=$( dirname $(realpath ~/.zshrc) )
+    source $zshrc_loc/.mainalias
+fi
 
 ALIASFILE=~/.aliases
 if test -f "$ALIASFILE"; then
