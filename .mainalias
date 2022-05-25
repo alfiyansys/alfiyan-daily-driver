@@ -1,3 +1,3 @@
 alias sau="sudo apt update && sudo apt upgrade -y"
 alias saur="sudo apt update && sudo apt upgrade -y && sudo apt autoremove"
-
+alias babi="nano"
