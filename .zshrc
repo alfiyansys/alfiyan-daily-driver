@@ -4,6 +4,7 @@
 # Theme: kafeitu
 # Plugins: git zsh-autosuggestions
 
+# for Mac, install coreutils (GNU Core Utils) using brew
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -109,7 +110,7 @@ source $ZSH/oh-my-zsh.sh
 
 if [ -L ~/.zshrc ]
 then
-    zshrc_loc=$( dirname $(realpath ~/.zshrc) )
+    zshrc_loc=$( dirname "$(realpath ~/.zshrc)" )
     source $zshrc_loc/.mainalias
 fi
 
