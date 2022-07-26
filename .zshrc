@@ -1,10 +1,17 @@
+# ========== START PERSONAL NOTES ==========
+
 # Use https://www.sitepoint.com/zsh-tips-tricks/
+
 # Install zsh-autosuggestions
 # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # Theme: kafeitu
 # Plugins: git zsh-autosuggestions
 
 # for Mac, install coreutils (GNU Core Utils) using brew
+# $ brew install coreutils
+
+# ========== END PERSONAL NOTES ==========
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
