@@ -125,3 +125,4 @@ ALIASFILE=~/.aliases
 if test -f "$ALIASFILE"; then
     source $ALIASFILE
 fi
+export PATH="$HOME/.local/bin:$PATH"
