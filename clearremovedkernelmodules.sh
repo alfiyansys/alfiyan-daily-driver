@@ -11,6 +11,6 @@ for module in $kernel_modules; do
   if [[ ! $installed_kernels =~ $module ]]; then
 	mod_dir="/lib/modules/$module"
     echo "Removing $module at $mod_dir"
-    #rm -rf $mod_dir
+    rm -rf $mod_dir
   fi
 done
