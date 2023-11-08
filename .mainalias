@@ -1,5 +1,6 @@
 alias sau="sudo apt update && sudo apt upgrade -y"
 alias saur="sudo apt update && sudo apt upgrade -y && sudo apt --purge autoremove"
+alias saura="sudo apt update && sudo apt upgrade -y && sudo apt --purge autoremove && sudo snap refresh"
 alias babi="nano"
 alias randpas="echo $RANDOM | md5sum | head -c 20; echo;"
 alias lah="ls -lah"
